@@ -1,0 +1,133 @@
+/* ----------------------- Media Quary ----------------------- */
+@media screen and (max-width: 1400px){
+    .btn-container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .nav-container{
+        width: 80%;
+    }
+    .nav-container ul{
+        display: none;
+    }
+    .nav-container .icons{
+        width: 7%;
+    }
+    .navbar .bars{
+        display: inline-block;
+        font-size: 1.5625rem;
+        font-weight: 900;
+        color: black;
+        top: 2rem;
+        /* right: 20px; */
+    }
+    .icons .dark{
+        left: 0px;
+    }
+    .btn-container{
+        margin-top: 1.5625rem;
+        width: 90%;
+        margin: auto;
+    }
+   
+}
+
+@media screen and (max-width: 992px){
+    .nav-container .icons{
+        width: 7%;
+    }
+    .header-container{
+        width: 90%;
+    }
+    .header-content{
+        width: 100%;
+        order: 1;
+        text-align: center;
+    }
+    .header-pic{
+        width: 100%;
+    }
+    .btn-container{
+        margin-top: 1.5625rem;
+        width: 60%;
+        margin: auto;
+    }
+    .header-content h2{
+        padding: 0.9375rem 1.5625rem;
+    }
+    .item-container{
+        flex-wrap: wrap;
+    }
+    .chefs-container .item-container .chefs-item{
+        width: 50%;
+
+    }
+    .gallary-continear{
+        height: auto;
+    }
+    .gallary-img{
+        width: 100%;
+    }
+    .cont-item{
+        width: 99%;
+    }
+    .footer-contianer{
+        flex-wrap: wrap;
+    }
+    .footer-contianer .footer-1{
+        width: 45%;
+        
+    }
+    .footer-contianer .footer-2{
+        width: 49%;
+    }
+    .footer-contianer .footer-3{
+        width: 49%;
+    }
+
+}
+
+@media screen and (max-width: 790px){
+    .nav-container .icons{
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-container .icons{
+        width: 9%;
+    }
+    .chefs-container .item-container .chefs-item{
+        width: 100%;
+
+    }
+    .footer-contianer .footer-1{
+        width: 98%;
+        margin-bottom: 20px;
+        
+    }
+    .footer-contianer .footer-2{
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    .footer-contianer .footer-3{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .nav-container .icons{
+        width: 11%;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .nav-container .icons{
+        width: 14%;
+    }
+    .btn-container{
+        width: 90%;
+    }
+}
