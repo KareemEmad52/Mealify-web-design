@@ -114,6 +114,21 @@
     .footer-contianer .footer-3{
         width: 98%;
     }
+    .div-item1{
+        
+        width: 100%;
+        
+    }
+    .div-item2{
+        
+        width: 100%;
+        
+    }
+    .div-item3{
+        
+        width: 100%;
+        
+    }
 }
 
 @media screen and (max-width: 690px){
@@ -125,9 +140,16 @@
 
 @media screen and (max-width: 576px){
     .nav-container .icons{
-        width: 14%;
+        width: 18%;
     }
     .btn-container{
         width: 90%;
+    }
+    .contect-container{
+        width: 100%;
+    }
+    .contect-location{
+        width: 95%;
+        margin: auto;
     }
 }
