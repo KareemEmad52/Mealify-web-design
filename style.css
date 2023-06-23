@@ -570,11 +570,6 @@ body:has(.contect:target) li a[href="#contect"]::after{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* flex-direction: row; */
-    /* gap: 1.25rem; */
-    /* background-color: teal; */
-    /* overflow: auto; */
-    /* align-items: center; */
 }
 .div-item1{
     width: 31.33%;
